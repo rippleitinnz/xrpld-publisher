@@ -50,16 +50,16 @@ import { ValidatorClient } from '@transia/xrpld-publisher'
 const client = ValidatorClient("node1")
 
 // Generate validator keys
-const keys = client.createKeys()
+client.createKeys()
 
 // Set the domain for the validator
-const client.setDomain("example.com")
+client.setDomain("example.com")
 
 // Generate a token for the validator
-const token = client.createToken()
+client.createToken()
 
 // Generate a VL manifest for the validator
-const manifest = client.createManifest()
+client.createManifest()
 
 // Read the VL manifest
 const manifest = client.readManifest()
@@ -81,10 +81,10 @@ const client = PublisherClient(manifest="manifest")
 const client = PublisherClient(vl_path="my/dir/vl.json")
 
 // Add a validator to the VL
-const client.addValidator("manifest")
+client.addValidator("manifest")
 
 // Remove a validator from the VL
-const client.removeValidator("public_key")
+client.removeValidator("public_key")
 
 // Sign the VL with a private key and generate a signed VL
 const effective: number = fromDateToEffective("01/01/2022")
