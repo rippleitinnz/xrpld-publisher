@@ -6,6 +6,7 @@ __pycache__/
 .pytest_cache
 .venv
 
+bin
 keystore/
 vl.json
 playground.py

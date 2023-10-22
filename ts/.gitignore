@@ -3,6 +3,7 @@
 build
 node_modules
 
+bin
 playground.ts
 keystore
 vl.json

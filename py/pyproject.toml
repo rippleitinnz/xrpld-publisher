@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "transia-xrpld-publisher"
+name = "xrpld-publisher"
 version = "1.0.0"
-description = ""
-authors = ["Denis Angell <denis@transia.co>"]
+description = "Xrpld validator lists publisher library"
+authors = ["Denis Angell <dangell@transia.co>"]
 
 [tool.poetry.dependencies]
 python = "^3.9.6"
