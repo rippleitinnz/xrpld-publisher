@@ -12,6 +12,14 @@ pip install xrpld-publisher
 
 ## Usage
 
+### Download the binary builds 
+
+First we need to download the bianry builds for both the `validators-list` and `validator-keys`.
+
+Download both of them and save them into the root of your project under `bin`.
+
+> The will be located in the root directory of this project or on the newest release.
+
 ### Generate Publisher List Keys
 
 When first setting up a validator list, use the `validator-list` tool to
