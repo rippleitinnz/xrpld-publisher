@@ -8,6 +8,7 @@ authors = ["Denis Angell <denis@transia.co>"]
 python = "^3.9.6"
 pytest = "^7.2.1"
 PyYAML = "^6.0"
+xrpl-py = "^2.4.0"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^3.8.4"
